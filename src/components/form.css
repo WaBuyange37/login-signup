@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3ffa1;
+  width: 40%;
+  margin-left: 28%;
+  margin-top: 90px;
+  /* height: 700px; */
+}
+.header {
+  padding: 0px;
+  position: relative;
+  bottom: 42px;
+}
+.header h2 {
+  font-size: 58px;
+  gape: 100px;
+  font-weight: 900;
+  color: rgb(21, 1, 39);
+}
+.header div {
+  background: rgb(21, 1, 39);
+  width: 79px;
+  border: 3px solid rgb(21, 1, 39);
+  border-radius: 23px;
+  position: absolute;
+  top: 122px;
+  left: 32px;
+}
+.form {
+  max-width: 80%;
+  width: 100%;
+}
+.formItem {
+  width: 100%;
+  background-color: #656565;
+  margin: 10px 8px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+}
+.formItem input {
+  width: 100%;
+  margin-left: 3px;
+  border: none;
+  flex: 1;
+  background-color: #656565;
+  outline: none;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+.formItem img {
+  width: 40px;
+  margin-right: 3px;
+}
+.submitElement {
+  display: flex;
+  max-width: 90%;
+  width: 70%;
+}
+.submit {
+  background-color: rgb(21, 1, 39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.forget {
+  position: relative;
+  right: 102px;
+}
+.forget span {
+  color: blue;
+  cursor: pointer;
+}
+.gray {
+  background-color: #323232;
+}
